@@ -14,9 +14,13 @@ whose original data set we built upon and extended. The original Sentinel-2 obse
 
 ### Updates: 
 
-1. You may also be interested in our follow-up publication 
-> S. Saha, P. Ebel and X. X. Zhu, "Self-Supervised Multisensor Change Detection," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2021.3109957.
+1. Provided code under ``` \code```. Credits: The code builds on Rodrigo's [repository](https://github.com/rcdaudt/fully_convolutional_change_detection) and extends it.
 
-  which builds on this data set, released with our ISPRS Congress publication.
+2. You may also be interested in our follow-up publications
+> S. Saha, P. Ebel and X. X. Zhu, "Self-Supervised Multisensor Change Detection," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2021.3109957. [url](https://ieeexplore.ieee.org/document/9538396), [code](https://gitlab.lrz.de/ai4eo/cd/tree/main/sarOpticalMultisensorTgrs2021)
 
-2. Provided code under ``` \code```. Credits: The code builds on Rodrigo's [repository](https://github.com/rcdaudt/fully_convolutional_change_detection) and extends it.
+and 
+
+> S. Saha, M. Shahzad, P. Ebel and X. X. Zhu, "Supervised Change Detection Using Pre-Change Optical-SAR and Post-Change SAR Data," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2022, doi: 10.1109/JSTARS.2022.3206898. [url](https://ieeexplore.ieee.org/document/9901395), [code](https://github.com/sudipansaha/optSarSarCdJstars2022)
+
+  which build on this data set, released with our ISPRS Congress publication.

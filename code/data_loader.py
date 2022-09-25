@@ -37,7 +37,7 @@ class multiCD(Dataset):
         self.use_pre_sliced = use_pre_sliced
         self.patch_indices  = []
         self.patch_size     = 96
-        self.stride         = int(self.patch_size/2) - 1  # self.patch_size/2
+        self.stride         = 1 # int(self.patch_size/2) - 1
 
         # 0-RGB | 1-RGBIr | 2-All bands s.t. resolution <= 20m | 3-All bands | 4-All bands Sentinel-2 & Sentinel-1 | 5-RGB bands Sentinel-2 & Sentinel-1
 
